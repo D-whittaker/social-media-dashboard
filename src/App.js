@@ -7,18 +7,15 @@ import Details from "./components/Details.js"
 
 const App =()=> {
 const [theme, setTheme] = useState('Dark');
-function changeTheme() {
-  if(theme="Dark")darkMode();
-  else{}  
-}
-function darkMode(){
-var x = document.getElementsByTagName("P");
-var i;
-for (i = 0; i < x.length; i++) {
-  x[i].style.backgroundColor = "red";
-}
-}
-  return (
+function Darkmode(){
+//const x = document.getElementById("switch");
+//if(x.checked){
+  console.log("light mode")
+//}
+//if(!x.checked){
+  console.log("dark mode")
+//}
+}  return (
     <>
       <header className="header">
         <h3>Social Media Dashboard</h3>
@@ -26,7 +23,7 @@ for (i = 0; i < x.length; i++) {
         <hr />
         <span style={{width: '30vw', margin:0, color: '#7777ff'}}>Dark Mode</span>
         <label className="switch" style={{float:'right'}}>
-          <input type="checkbox" name="theme" />
+          <input id='switch' type="checkbox" onClick={Darkmode()} name="theme" />
           <span className="slider round"></span>
         </label>
       </header>
@@ -37,7 +34,7 @@ for (i = 0; i < x.length; i++) {
         <Followers profile ="@realnathanf" following= "F O L L O W E R S" name="twitter" num ={11000} pos={true} change={1099} />
         <Followers profile ="@Nathan F." following= "S U B S C R I B E R S" name="youtube" num ={8239} pos={false} change={144} />
       </section>
-      <p style={{color: 'white'}}>Overview - Today</p>
+      <h5>Overview - Today</h5>
       <section className="container">
         <Details name="facebook" desc="Page Views" num="87" pos={true} change={3}/>
         <Details name="facebook" desc="Likes" num="52" pos={false} change={2}/>

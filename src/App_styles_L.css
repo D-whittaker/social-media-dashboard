@@ -1,7 +1,7 @@
 @media(max-width: 500px){
 	body{
 		font-size: 20px;
-		background: #EEEEEE;
+		background: #111122;
 	}
 	.container{
 		display: flex;
@@ -113,10 +113,14 @@
 	svg{
 		vertical-align: text-bottom;
 	}
+	.name{
+
+	}
+	.num{
+
+	}
 	.followers{
-		font-size: 80px;
-		color: #121212; 
-		margin: 0;
+
 	}
 	.inc{
 		font-size: 15px; 
@@ -130,11 +134,6 @@
 		margin:10px;
 		float: right;
 	}
-	.likes{
-		font-size: 35px;
-		color: #121212; 
-		margin: 0;
-	}
 }
 
 @media(min-width: 500px){
@@ -145,16 +144,16 @@
 	}
 	body{
 		font-size: 20px;
-		background: #eeeEEE;
+		background: #111122;
 	}
 	.header>h3{
 		text-align: left;
-		color:black;
+		color:white;
 		margin: 10px;
 	}
 	.header>h5{
 		text-align: left;
-		color:#010101;
+		color:#7777ff;
 		margin: 10px;
 		margin
 	}
@@ -221,9 +220,9 @@
   		border-width: 5px 0px 0px 0px;
 		border-color:rgb(26,143,245);
 		text-align: center;
-		color: #121212;
+		color: #7777CC;
 		margin: 20px;
-		background:#f0f3fa;
+		background:#1D1D37;
 		border-radius: 10px;
 	}
 	.profile.instagram{
@@ -245,9 +244,9 @@
 		align-content: center;
 		justify-content: center;
 		text-align: center;
-		color: #121212;
+		color: #7777CC;
 		margin: 10px;
-		background:#f0f3fa;
+		background:#212137;
 		border-radius: 10px;
 	}
 	.details{
@@ -255,9 +254,9 @@
 		flex-direction: column;
 		align-content: space-around;
 		text-align: left;
-		color: #121212;
+		color: #7777CC;
 		margin: 10px;
-		background:#f0f3fa;
+		background:#1D1D37;
 		border-radius: 10px;
 	}	
 	.details:hover{
@@ -265,24 +264,20 @@
 		flex-direction: column;
 		align-content: space-around;
 		text-align: left;
-		color: #121212;
+		color: #7777CC;
 		margin: 10px;
-		background:#f0f3fa;
+		background:#212137;
 		border-radius: 10px;
 	}
 	svg{
 		vertical-align: text-bottom;
 	}
+	.name{}
+	.num{
+
+	}
 	.followers{
-		font-size: 80px;
-		color: #121212; 
-		margin: 0;
-	}
-	.likes{
-		font-size: 35px;
-		color: #121212; 
-		margin: 0;
-	}
+
 	}
 	.inc{
 		font-size: 15px; 

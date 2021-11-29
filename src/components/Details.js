@@ -29,7 +29,7 @@ export default function Details(props) {
               style={{float: 'right', margin:'10px'}}/>
           </p>
 
-          <p style={{fontSize: '35px', color: 'white', margin: 0}}>
+          <p className="likes">
             {props.num}
             <span className={colors}>
             <img 

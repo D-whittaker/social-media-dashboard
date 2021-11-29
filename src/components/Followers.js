@@ -26,7 +26,7 @@ export default function Followers(props) {
               src={logo}/>
             {props.profile}
           </p>
-          <p style={{fontSize: '80px', color: 'white', margin: 0}}>{props.num}</p>
+          <p className="followers">{props.num}</p>
           <p style={{margin: 0}}>{props.following}</p>
           <p className={colors}>
             <img 
